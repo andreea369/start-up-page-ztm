@@ -1,0 +1,31 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-image: url('header.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  align-items:center;
+  height:100%;
+}
+
+.buton{
+  border-radius: 25px;
+  background-color: orangered;
+  padding: 10px 20px;
+  
+}
